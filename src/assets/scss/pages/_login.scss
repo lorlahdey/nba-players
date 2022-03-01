@@ -1,0 +1,30 @@
+.login {
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: $dark-blue;
+        margin-bottom: 62px;
+        display: none;
+        @include media-breakpoint-down(lg) {
+            display: block;
+        }
+    }
+    &__form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__formgroup {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    &__formgroup--footer {
+        font-size: 15px;
+        line-height: 150%;
+        color: $dark-blue;
+        cursor: pointer;
+    }
+}

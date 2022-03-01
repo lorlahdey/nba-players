@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+     font-family: 'Nunito Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #253a57;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+

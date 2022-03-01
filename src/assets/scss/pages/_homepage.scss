@@ -1,0 +1,26 @@
+.home {
+    background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
+        (url("../../images/home/homebgimage.png"));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 105px);
+    &__auth-session {
+        width: 41.7%;
+        margin: auto;
+          @include media-breakpoint-down(lg){
+            width: 350px;
+        }
+           @include media-breakpoint-down(md){
+            width: 90%
+        }
+    }
+    &__auth-session-text {
+        color: $white;
+        margin-bottom: 4.9rem;
+    }
+    &__create-link {
+        color: $white;
+        margin-left: 5px;
+    }
+}

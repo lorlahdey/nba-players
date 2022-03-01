@@ -1,0 +1,19 @@
+.btn {
+  &-large {
+    padding: 0.63rem;
+    width: 100%;
+    background: #f48221;
+    border-radius: 1rem;
+    outline: none !important;
+    border: none;
+    color: $white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33px;
+  }
+  &-small-label {
+    justify-content: space-around;
+    align-items: center;
+  }
+}

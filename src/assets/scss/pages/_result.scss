@@ -1,0 +1,21 @@
+.result{
+    &__header{
+        border: 1px solid rgba(8, 8, 8, 0.06);
+    }
+}
+button.btn:focus:active{
+    outline: none;
+    box-shadow: none;
+}
+
+thead{
+    border-bottom: 2px solid #FC7233;
+}
+.custom-border{
+    border: 1px solid #FC7233;
+}
+
+
+.progressbar3{
+    background-color: #FC7233;
+}

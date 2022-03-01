@@ -1,0 +1,61 @@
+.input-wrap {
+    grid-row-gap: 11px;
+    &__error-size{
+        font-size:12px;
+    }
+}
+.input-label {
+    font-size: 22px;
+    line-height: 150%;
+    color: $input-color;
+    text-align: left;
+    margin-bottom: 11px;
+}
+.input {
+    height: 57px;
+    border: 1px solid $input-border-color;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    outline: none;
+    &::placeholder,
+    &:-webkit-autofill::first-line,
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+        line-height: 21px !important;
+        cursor: auto;
+        caret-color: #ccc;
+        line-height: 150%;
+        background: transparent;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: $input-color;
+    }
+}
+.requestInput{
+    height: 45px;
+}
+.password-input-wrap {
+    position: relative;
+    height: 57px;
+    border: 1px solid $input-border-color;
+    border-radius: 10px;
+    .password-input {
+        border: none;
+        width: 92%;
+        outline: none;
+        padding: 0 1.5rem;
+        height: 96%;
+        margin-left: 3px;
+    }
+    span > i {
+        cursor: pointer;
+    }
+}
+.password-form{
+    &__error-size{
+        font-size:12px;
+    }
+}

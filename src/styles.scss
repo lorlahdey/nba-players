@@ -1,0 +1,18 @@
+@import "assets/scss/base";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// components
+@import "../src/assets/scss/components/btn.scss";
+@import "assets/scss/components/input.scss";
+
+//pages
+@import "assets/scss/pages/homepage";
+@import "assets/scss/pages/signup";
+@import "assets/scss/pages/login";
+@import "assets/scss/pages/set-password";
+@import "assets/scss/pages/verification-modal";
+@import "assets/scss/pages/input-value";
+@import "assets/scss/pages/result";
+// layouts
+@import "assets/scss/layouts/nav-layout";

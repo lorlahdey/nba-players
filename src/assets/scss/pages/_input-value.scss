@@ -1,0 +1,53 @@
+.form-select:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.btn-outline-secondary:active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-outline-danger:active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+button.btn:focus:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-secondary:focus:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.input-value {
+    &__available-stocks {
+        padding-top: 0.4375rem;
+        padding-bottom: 0.4375rem;
+        background: #FC7233;
+        color: $dark-blue;
+    }
+
+    &__validation-err {
+        color: red;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-top: 0.5rem;
+    }
+}
+
+.custom-table {
+    -webkit-box-shadow:$box-shadow-card;
+    box-shadow: $box-shadow-card;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+}
